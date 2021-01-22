@@ -7,9 +7,9 @@ using System.Text;
 
 namespace eShopSolution.Data.EF
 {
-    public class EShopDBContext : DbContext
+    public class EShopDbContext : DbContext
     {
-        public EShopDBContext(DbContextOptions options) : base(options)
+        public EShopDbContext(DbContextOptions options) : base(options)
         {
         }
 
